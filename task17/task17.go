@@ -5,6 +5,10 @@ import (
 	"sort"
 )
 
+/*
+Реализовать бинарный поиск встроенными методами языка.
+*/
+
 func binarySearch(arr []int, target int) int {
 	low, high, mid := 0, len(arr)-1, 0
 

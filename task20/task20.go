@@ -5,6 +5,11 @@ import (
 	"strings"
 )
 
+/*
+Разработать программу, которая переворачивает слова в строке.
+Пример: «snow dog sun — sun dog snow».
+*/
+
 func task20(input string) []string {
 	// разбиваем строку на слова по пробелу
 	words := strings.Split(input, " ")

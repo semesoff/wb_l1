@@ -14,7 +14,7 @@ func setBit(num int64, pos uint, value int) int64 {
 		return num | (1 << pos)
 	} else {
 		// Устанавливаем i-й бит в 0
-		return num &^ (1 << pos) // &^ это "очистка бита"
+		return num &^ (1 << pos) // &^ это очистка бита
 	}
 }
 

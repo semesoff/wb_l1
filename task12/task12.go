@@ -4,6 +4,11 @@ import (
 	"fmt"
 )
 
+/*
+Имеется последовательность строк - (cat, cat, dog, cat, tree)
+ создать для нее собственное множество.
+*/
+
 func task12() {
 	strings := [5]string{"cat", "cat", "dog", "cat", "tree"}
 

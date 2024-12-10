@@ -5,6 +5,11 @@ import (
 	"reflect"
 )
 
+/*
+Разработать программу, которая в рантайме способна определить
+ тип переменной: int, string, bool, channel из переменной типа interface{}.
+*/
+
 // Решение с использованием switch
 func task14_1(variable interface{}) {
 	switch variable.(type) {
